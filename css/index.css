@@ -22,10 +22,11 @@
     top: 30%;
     left: 34%;
     border-radius: 20px;
+    
 }
 .tim-kiem input:hover{
     color: violet;
-    box-shadow: 0px 0px 10px violet;
+    box-shadow: 0px 0px 10px orangered;
 }
 .tim-kiem  .fas{
     position: absolute; 
@@ -45,8 +46,43 @@ nav img{
     width: 100%;
     margin-bottom:100px;
 }
+    
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover{
+      background-color: gray;
+}
+
+  
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+
+
+  
+
 .home{
-    background-color: rgb(219, 225, 226);
+    background-color: gray;
     height:50px;
     text-align: center;
     border-bottom: 2px solid black;
@@ -69,6 +105,7 @@ nav img{
     margin: 10px;
     padding-left: 480px;
 }
+
 .home .menut{
     display: inline-block;
     text-transform: uppercase;
